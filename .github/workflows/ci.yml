@@ -104,7 +104,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       mysql56:
-        image: mysql:5.6.35
+        image: mysql:5.7.43
         env:
           MYSQL_DATABASE: test
           MYSQL_ROOT_PASSWORD: pass
@@ -117,7 +117,7 @@ jobs:
           --health-timeout 5s
           --health-retries 10
       mysql57:
-        image: mysql:5.7.26
+        image: mysql:5.7.43
         env:
           MYSQL_DATABASE: test
           MYSQL_ROOT_PASSWORD: pass
@@ -282,7 +282,7 @@ jobs:
     if: ${{ github.ref != 'refs/heads/master' }}
     services:
       mysql56:
-        image: mysql:5.6.35
+        image: mysql:5.7.43
         env:
           MYSQL_DATABASE: test
           MYSQL_ROOT_PASSWORD: pass
@@ -295,7 +295,7 @@ jobs:
           --health-timeout 5s
           --health-retries 10
       mysql57:
-        image: mysql:5.7.26
+        image: mysql:5.7.43
         env:
           MYSQL_DATABASE: test
           MYSQL_ROOT_PASSWORD: pass
