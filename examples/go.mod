@@ -7,7 +7,7 @@ replace entgo.io/ent => ../
 require (
 	ariga.io/atlas v0.12.1-0.20230620155259-b8e83e5e8ad6
 	entgo.io/ent v0.0.0-00010101000000-000000000000
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.3.1
 	github.com/mattn/go-sqlite3 v1.14.16
 	gocloud.dev v0.28.0
 )
