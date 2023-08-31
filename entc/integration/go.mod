@@ -9,7 +9,7 @@ require (
 	entgo.io/ent v0.12.2-0.20230420123650-f6de6bb2e04c
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/google/uuid v1.3.0
-	github.com/lib/pq v1.10.7
+	github.com/lib/pq v1.10.9
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/stretchr/testify v1.8.2
 	golang.org/x/sync v0.1.0
